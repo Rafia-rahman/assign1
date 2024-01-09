@@ -1,0 +1,291 @@
+.container {
+    width: 1320px;
+    height: 600px;
+    position: relative;
+    margin: 50px auto;
+    filter: brightness(0, 4);
+    width: 1600px;
+    height: 1000px;
+    margin: 120px auto;
+    text-align: center;
+
+
+}
+
+.container img {
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+
+
+
+
+}
+
+.text {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 400;
+    height: 70;
+    left: 32px;
+    right: 40px;
+}
+
+.text2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    width: 632px;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 100px rgb(0, 0, 0);
+
+
+}
+
+.OFF {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    left: 468px;
+    right: 469px;
+    top: 60px;
+
+
+}
+
+.holiday {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    top: 48px;
+    right: 8px;
+    left: 6px;
+    text-decoration: none;
+}
+
+.CATEGORIES {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    top: 16px;
+    text-decoration: none;
+}
+
+.myimg {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.party {
+    width: 1320px;
+    height: 600px;
+    background: url(../resources/Vectorrr.png);
+    opacity: 89%;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin: 120px 260px 120px 290px;
+    display: flex;
+}
+
+.partyone {
+    display: inline;
+    width: 500px;
+
+}
+
+.partyimg {
+    position: absolute;
+    top: 75px;
+    right: 144px;
+    bottom: 78px;
+    left: 844px;
+}
+
+
+.partytwo {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 56px;
+    font-weight: 900;
+    top: 126px;
+    right: 555px;
+    bottom: 298px;
+    left: 126px;
+    letter-spacing: 7.04px;
+    position: absolute;
+
+}
+
+.dontmiss {
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    top: 350px;
+    right: 496px;
+    bottom: 214px;
+    left: 126px;
+
+    .tag {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        top: 326px;
+        right: 496px;
+        bottom: 214px;
+        left: 126px;
+        position: absolute;
+        position: relative;
+        text-shadow: 0 0 100px rgb(246, 238, 238);
+    }
+
+    .pbtn {
+        color: #FFF;
+
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 700;
+        top: 434px;
+        right: 1060px;
+        bottom: 142px;
+        left: 160px;
+        position: absolute;
+        background: none;
+        border: none;
+
+    }
+
+
+}
+
+.bAnner {
+    padding: 30px 30px 30px 200px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+
+
+}
+
+.D {
+    width: 1320px;
+    height: 229px;
+    flex-shrink: 0;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+
+}
+
+.sub {
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.usee {
+    color: rgba(118, 115, 123, 0.3);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.gifts {
+    width: 896px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.ok {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+
+}
+
+.our {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.a {
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.b {
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.c {
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.d {
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.e {
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+
+.f {
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
