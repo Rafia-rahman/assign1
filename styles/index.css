@@ -149,35 +149,24 @@
     bottom: 214px;
     left: 126px;
 
-    .tag {
-        color: rgb(255, 255, 255);
-        font-family: Inter;
-        font-size: 12px;
-        font-weight: 400;
-        top: 326px;
-        right: 496px;
-        bottom: 214px;
-        left: 126px;
-        position: absolute;
-        position: relative;
-        text-shadow: 0 0 100px rgb(246, 238, 238);
-    }
 
-    .pbtn {
-        color: #FFF;
+}
 
-        font-family: Inter;
-        font-size: 20px;
-        font-weight: 700;
-        top: 434px;
-        right: 1060px;
-        bottom: 142px;
-        left: 160px;
-        position: absolute;
-        background: none;
-        border: none;
+.pbtn {
+    color: #FFF;
 
-    }
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    top: 434px;
+    right: 1060px;
+    bottom: 142px;
+    left: 160px;
+    position: absolute;
+    background: none;
+    border: none;
+
+}
 
 
 }
@@ -191,6 +180,23 @@
     flex-shrink: 0;
 
 
+}
+
+.A {}
+
+
+.B {
+    width: 429px;
+    height: 433px;
+    flex-shrink: 0;
+    border-radius: 16px 16px 0px 0px;
+    background: url(<path-to-image>), lightgray -59.98px 0px / 151.553% 100% no-repeat;
+}
+
+c {
+    width: 206.841px;
+    height: 206.841px;
+    padding-left: 45%;
 }
 
 .D {
@@ -243,7 +249,6 @@
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
 
@@ -254,9 +259,7 @@
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
 }
 
@@ -266,13 +269,14 @@
 }
 
 .b {
-    padding-right: 24px;
+    padding-left: 24px;
     padding-bottom: 24px;
 }
 
 .c {
     padding-right: 24px;
     padding-bottom: 24px;
+
 }
 
 .d {
@@ -288,4 +292,41 @@
 .f {
     padding-right: 24px;
     padding-bottom: 24px;
+}
+
+.bnr {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: black;
+}
+
+.big {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+.al {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.un {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.TIME {
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
